@@ -1,9 +1,9 @@
 # Web application for Hyperledger Fabric decentralized application 
 
 Starter application built with [Aurelia](https://aurelia.io/) to connect to 
-[REST API servers](https://github.com/olegabu/fabric-starter-rest) and transact on 
+[REST API servers](https://github.com/shiqinfeng1/fabric-starter-rest) and transact on 
 [Hyperledger Fabric](https://www.hyperledger.org/projects/fabric) blockchain network
-created with [Fabric Starter](https://github.com/olegabu/fabric-starter).
+created with [Fabric Starter](https://github.com/shiqinfeng1/fabric-starter).
 
 ## Install and build
 
@@ -23,7 +23,7 @@ npm install && au build
 ```
 ## Create and start the network
 
-Follow instructions on  [Fabric Starter](https://github.com/olegabu/fabric-starter) to create a network of member 
+Follow instructions on  [Fabric Starter](https://github.com/shiqinfeng1/fabric-starter) to create a network of member 
 organizations who will run their REST API servers which will serve this web app.
 
 - org1 [http://localhost:3000](http://localhost:3000)
@@ -31,7 +31,7 @@ organizations who will run their REST API servers which will serve this web app.
 
 ## Serve by the API servers
 
-Build to be served by [fabric-starter-rest](https://github.com/olegabu/fabric-starter-rest), 
+Build to be served by [fabric-starter-rest](https://github.com/shiqinfeng1/fabric-starter-rest), 
 assume it's cloned into `../fabric-starter-rest`.
 ```bash
 au build --env stage \
